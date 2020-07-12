@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doe Pe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/imagehover.css">
+	<link rel="stylesheet" href="css/bootstrap4/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawe/css/all.min.css">
+	<script src="js/js.js"></script>
+	<script src="css/bootstrap4/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		    <div class="container">
+		    	<a class="navbar-brand" href="#">
+		    		<img src="img/logo/logo.png" width="165px">
+		    	</a>
+		      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		      	</button>
+
+		      	<div class="collapse navbar-collapse" id="navbarsExample05">
+		        <ul class="navbar-nav ml-auto">
+		          	<li class="nav-item">
+		            	<a class="nav-link" href="index.php" id="act">Home</span></a>
+		          	</li>
+		          	<li class="nav-item">
+		           		<a class="nav-link" href="includes/package.php">Packages</a>
+		          	</li>
+		          	<li class="nav-item dropdown">
+		            	<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service</a>
+			            <div class="dropdown-menu" aria-labelledby="dropdown05">
+			              <a class="dropdown-item" href="includes/flight.php">Flight Ticket</a>
+			              <a class="dropdown-item" href="#">Bus Ticket</a>
+			            </div>
+		          	</li>
+		          	<li class="nav-item">
+		           		<a class="nav-link" href="includes/about.php">About</a>
+		          	</li>
+		          	<li class="nav-item">
+		           		<a class="nav-link" href="includes/contact.php">Contact</a>
+		            </li>
+		          	
+		        </ul>
+		        <form class="form-inline my-2 my-md-0">
+		          	<button class="btn btn-md" id="button">Book Now</button>
+		        </form>
+		      	</div>
+		    </div>
+    	</nav>
+	   
+	</header>
+	<section>
+			<p>
+				Make Your Tour Amazing With Us<br>
+				<small>#Let’s start your journey with us, your dream will come true.</small>
+				<br>
+				<button class="btn btn-lg" id="btn">Book Now</button>
+			</p>
+	</section>
+	
+	<div class="container">
+		<div class="booking">
+			<form>			
+			<div class="row">		
+					<div class="col-md-3">
+						<p align="center">Destination</p>
+						<input type="text" name="destination" placeholder="Choose a place ">
+					</div>
+					<div class="col-md-3">
+						<p align="center">Check in</p>
+						<input type="date" name="checkin" class="form-control">
+					</div>
+					<div class="col-md-3">
+						<p align="center">Check Out</p>
+						<input type="date" name="checkout" class="form-control">
+					</div>
+					<div class="col-md-3">
+						<center><button class="btn btn-md" id="search"><i class="fa fa-search"></i> Search</button>
+						</center>
+					</div>
+			</div>
+			</form>
+		</div>
+		<div class="special_offer">
+			<h3>SPECIAL OFFER</h3>
+			<center><div class="line"></div></center>
+			<small>Check out the latest offers for Myanmar Short Trips</small>
+		</div>
+		<div style="height: 50px;"></div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card mb-4 box-shadow">   
+					<div id="inner">  
+						<img class="card-img-top" src="img/tour/t2.jpg">    						
+					</div>               	
+                <div class="card-body">
+                  	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  	
+                </div>
+              	</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card mb-4 box-shadow">
+					<div id="inner">
+						<img class="card-img-top" src="img/tour/t1.jpg">
+					</div>
+                <div class="card-body">
+                  	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  	
+                </div>
+              	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card mb-4 box-shadow">
+					<div id="inner">
+						<img class="card-img-top" src="img/10.jpg">
+					</div>
+                <div class="card-body">
+                  	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  	
+                </div>
+              	</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card mb-4 box-shadow">
+					<div id="inner">
+						<img class="card-img-top" src="img/3.jpg">
+					</div>
+                <div class="card-body">
+                  	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  	
+                </div>
+              	</div>
+			</div>
+		</div>
+	</div>
+	<div style="height: 50px"></div>
+
+	<div class="banner">
+		
+	</div>
+	<div style="height: 25px"></div>
+
+	<div class="container special_offer">
+		<h3>TOP DESTINATIONS</h3>
+		<center><div class="line"></div></center>
+		<small>Find Short Trips by top destinations in Myanmar</small>
+	</div>
+	<div style="height: 50px;"></div>
+	<div class="container">
+		<div class="row" id="destination">
+			<div class="col-md-3">				
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d1.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // YANGON !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d3.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // MANDALAY !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d4.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // BAGAN !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d2.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // NWE SAUNG !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+		</div>
+		<div style="height: 50px;" class="block"></div>
+		<div class="row" id="destination">
+			<div class="col-md-3">
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d8.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // INLAY !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d9.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // INLAY !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d12.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // INLAY !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+			<div class="col-md-3">
+				<figure class="imghvr-shutter-in-out-diag-1">
+					<img src="img/destination/d13.jpg" width="100%">
+				    <figcaption style="background-color:rgba(0,0,0,0.1);">
+				       // INLAY !
+				    </figcaption>
+				    <a href="index.html"></a>
+				</figure>
+			</div>
+		</div>
+	</div>
+	<div style="height: 50px;"></div>
+	<div class="container special_offer">
+		<h3>Top Hotel & Restaurants</h3>
+		<center><div class="line"></div></center>
+		<small>Find Short Trips by top destinations in Myanmar</small>
+		<br><br>
+		<div class="row">
+			<div class="col-md-4">				
+				<div class="card mb-4 box-shadow">
+					<div id="inner">
+                		<img class="card-img-top" src="img/hotel/h2.png">						
+					</div>
+                <div class="card-body">
+                  	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  	
+                </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4 box-shadow">
+					<div id="inner">
+						<img class="card-img-top" src="img/hotel/h1.png">
+					</div>                	
+                <div class="card-body">
+                  	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  	
+                </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4 box-shadow">
+					<div id="inner">						
+                		<img class="card-img-top" src="img/hotel/h3.png">
+					</div>
+                <div class="card-body">
+                  	<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>                  	
+                </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="height: 75px;"></div>
+<footer>
+		<div class="container">
+			<div class="row" id="footer">
+				<div class="col-md-4">
+					<h5>ABOUT DOE PE Travel & Tours LTD.</h5>
+					<p>Operating since 1991, Doe Pe Travela & Tours Ltd. is one of Myanmar's leading travel agencies and tour operators based in Yangon. </p>
+					<img src="img/24.png" width="100%">
+				</div>				
+				<div class="col-md-4" >
+					<h5>OUR SPECIALTY TOURS</h5>
+						<a href="#"><i class="fa fa-circle"></i> &emsp; Latest Myanmar Tours</a><br><br>
+						<a href="#"><i class="fa fa-circle"></i> &emsp; Culture & Heritae Tours</a><br><br>
+						<a href="#"><i class="fa fa-circle"></i> &emsp; Nature & Advanture Tours</a><br><br>
+						<a href="#"><i class="fa fa-circle"></i> &emsp; Day Tours</a><br><br>
+						<a href="#"><i class="fa fa-circle"></i> &emsp; Luxury Tours</a><br><br>
+				</div>
+				<div class="col-md-4">
+					<h5>CONTACT INFO</h5>
+					<p>
+						<i class="fa fa-home"></i>&emsp;No.124/126, 50th Street, Pazundaung Township, Yangon, Myanmar (Burma).<br><br>
+						<i class="fa fa-phone"></i>&emsp;09-761728032, 09-12345678, 0987654321.<br><br>
+						<i class="fa fa-envelope"></i><a href="mailto:shadowkingmap@gmail.com">&emsp;shadowkingmap@gmail.com</a><br><br>
+						<i class="fab fa-facebook"></i>&emsp; www.https//:doepe.com<br><br>
+						<center><img src="img/logo/mtf.png"></center>
+					</p>
+				</div>
+			</div>
+			<center><div id="line1"></div></center>
+			<p style="text-align: center !important;">Copyright © 2020 Doe Pe Travels & Tours. Developed by <font color="yellow">Min Aung Paing</font></p>
+			<br>
+		</div>	
+	</footer>
+</body>
+	<script>
+		$(function(){			
+			var mainNav = $("nav");
+			sticky = "sticky";
+			headerHeight = 200;
+
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > headerHeight ){
+					mainNav.addClass(sticky);
+				}
+				else{
+					mainNav.removeClass(sticky);
+				}
+				if ($(this).scrollTop() > (headerHeight *3) ){
+					mainNav.addClass("inView");
+				}
+				else{
+					mainNav.removeClass("inView");
+				}
+			})
+		});
+	</script>
+</html>
