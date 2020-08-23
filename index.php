@@ -58,7 +58,7 @@
 				Make Your Tour Amazing With Us<br>
 				<small>#Let’s start your journey with us, your dream will come true.</small>
 				<br>
-				<button class="btn btn-lg" id="btn">Book Now</button>
+				<button class="btn btn-sm" id="btn">Book Now</button>
 			</p>
 	</section>
 	
